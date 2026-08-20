@@ -23,4 +23,3 @@ Welcome to your team's official codebase for the current development cycle.
 * **Software Engineer (SE):** @David-Eby
 * **Cyber Compliance Analyst (CCA):** @nick500062
 * **QA Tester (QA):** @gooseschool22
-

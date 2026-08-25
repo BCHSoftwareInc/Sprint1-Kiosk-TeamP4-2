@@ -31,7 +31,6 @@ export default class App extends Component {
                     value={this.state.username}
                     onChangeText={this._handleUsername}
                     style={styles.input}
-                    maxLength={29}
                 />
                 
                 <Text>Department: </Text>
@@ -39,7 +38,6 @@ export default class App extends Component {
                     value={this.state.org}
                     onChangeText={this._handleDepartment}
                     style={styles.input}
-                    maxLength={24}
                 />
 
                 <Text>Contact: </Text>
@@ -47,7 +45,6 @@ export default class App extends Component {
                     value={this.state.contact}
                     onChangeText={this._handleContact}
                     style={styles.input}
-                    maxLength={27}
                 />
 
                 <Text>Access: </Text>
@@ -55,7 +52,6 @@ export default class App extends Component {
                     value={this.state.access}
                     onChangeText={this._handleAccess}
                     style={styles.input}
-                    maxLength={27}
                 />
                 
                 <View style={styles.box}>
@@ -112,7 +108,11 @@ const styles = StyleSheet.create({
         margin: 5,
         fontSize: 15,
         fontFamily: 'Times New Roman',
-        textAlign: 'left'
+        textAlign: 'left',
+        display: '-webkit-box',
+        WebkitLineClamp: 1,
+        WebkitBoxOrient: 'vertical',
+        overflow: 'hidden'
     },
     header: {
         fontSize: 20,
@@ -123,5 +123,5 @@ const styles = StyleSheet.create({
         borderBottomWidth: StyleSheet.hairlineWidth,
         marginVertical: 7,
         width: '100%',
-    }
+    },
 });

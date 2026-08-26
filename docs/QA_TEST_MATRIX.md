@@ -1,5 +1,5 @@
 # QA Test Execution Matrix - Sprint 1
-* **QA Tester:** @username
+* **QA Tester:** @gooseschool22
 * **Client Deliverable:** Console Interactive Kiosk
 
 | Test ID | Target Input Field | Test Input Description | Expected Output | Actual Behavior | Status (Pass/Fail) |

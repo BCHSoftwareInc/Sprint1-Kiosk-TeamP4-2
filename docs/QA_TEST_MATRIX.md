@@ -5,7 +5,7 @@
 | Test ID | Target Input Field | Test Input Description | Expected Output | Actual Behavior | Status (Pass/Fail) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | TC-01 | Full Name | Standard text (`"Jane Doe"`) | Formatted correctly in ASCII box | Formats correctly in ASCII box | Pass |
-| TC-02 | Full Name | Longer Last Name (`"John Supercalifragilisticexpialidocious"`) | Formatted correctly in ASCII box | Caps the max letters to prevent overflow, however cannot print the full string | Fail |
+| TC-02 | Full Name | Longer Last Name (`"John Supercalifragilisticexpialidocious"`) | Formatted correctly in ASCII box | Caps the max letters to prevent overflow, however cannot print the full string | Fail (Now fixed) |
 | TC-04 | Full Name | Symbol input (`"m@rio m@rio"`) | Correctly responds to symbols with no errors | Formats correctly with no errors | Pass |
 | TC-05 | Department/Role | Blank input (`""`) | Handles gracefully without crash | No errors | Pass |
 | TC-06 | Email / Contact | Valid string (`"test@bch.org"`) | Stored & printed accurately | Printed input accurately with no problem | Pass |

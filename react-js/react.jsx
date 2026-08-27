@@ -40,7 +40,7 @@ export default class App extends Component {
                     style={styles.input}
                 />
 
-                <Text>Contact: </Text>
+                <Text>Email: </Text>
                 <TextInput
                     value={this.state.contact}
                     onChangeText={this._handleContact}
